@@ -64,6 +64,6 @@ workbox.routing.registerRoute(
 
 
 workbox.routing.registerRoute(
-    'http://api.football-data.org/v2/teams',
+    'https://api.football-data.org/v2/teams',
     new workbox.strategies.StaleWhileRevalidate(),
 );

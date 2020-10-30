@@ -2,7 +2,7 @@ import "./components/card-detail.js";
 import "./components/card-item.js";
 
 const baseUrl = "/data/team.json";
-const apiUrl = "http://api.football-data.org/v2/teams";
+const apiUrl = "https://api.football-data.org/v2/teams";
 
 function status(response) {
     if (response.status !== 200) {
