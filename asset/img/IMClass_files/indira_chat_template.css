@@ -1,0 +1,1000 @@
+/*@import url(//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700);*/
+
+@import url(//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css);
+@import url(//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css);
+
+/*@font-face {
+    font-family: 'Noto Sans';
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+/*@font-face {*/
+/*font-family: 'Ooredo-Heavy';*/
+/*src: url('https://indira2.indosatooredoo.com/client/fonts/Ooredoo-Heavy.otf');*/
+/*font-weight: normal;*/
+/*font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*font-family: 'Noto-Sans-Bold';*/
+/*src: url('https://indira2.indosatooredoo.com/client/fonts/Noto-Sans/NotoSans-Bold.ttf');*/
+/*font-weight: normal;*/
+/*font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*font-family: 'Noto-Sans-Regular';*/
+/*src: url('https://indira2.indosatooredoo.com/client/fonts/Noto-Sans/NotoSans-Regular.ttf');*/
+/*font-weight: normal;*/
+/*font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*font-family: 'Noto-Sans-Italic';*/
+/*src: url('https://indira2.indosatooredoo.com/client/fonts/Noto-Sans/NotoSans-Italic.ttf');*/
+/*font-weight: normal;*/
+/*font-style: normal;*/
+/*}*/
+
+/*body {*/
+/*height: 400px;*/
+/*position: fixed;*/
+/*bottom: 0;*/
+/*background-color: transparent;*/
+/*}*/
+
+#indira-bot-webchat-pi img {
+    display: block;
+    width: 100%;
+}
+
+#indira-bot-webchat-pi button:active,
+#indira-bot-webchat-pi button:focus {
+    outline: none !important;
+}
+
+#indira-bot-webchat-pi a {
+	color: #337ab7;
+    text-decoration: none;
+	cursor: pointer;
+}
+
+#indira-bot-webchat-pi a:focus, #indira-bot-webchat-pi a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+/*For Testing Local Storage*/
+#end_chat_window {
+    display: none !important;
+}
+
+#indira-bot-webchat-pi .slick-slide {
+    margin: 0 5px;
+  }
+  
+/* the parent */
+#indira-bot-webchat-pi .slick-list {
+margin: 0 -5px;
+}
+
+#indira-bot-webchat-pi .slick-prev:before, 
+#indira-bot-webchat-pi .slick-next:before{
+    color:red;
+}
+
+#indira-bot-webchat-pi .slick-prev, 
+#indira-bot-webchat-pi .slick-next{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+	text-indent: 0;
+    z-index: 0;
+}
+
+#indira-bot-webchat-pi .slick-prev {
+	left : -25px !important;
+}
+
+#indira-bot-webchat-pi .slick-next {
+	right : -25px !important;
+}
+
+.indira-bwcs-icon-close {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.indira-bwcs-panel-end-chat {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    right: 5px;
+}
+
+.end-btn {
+    font-family: "ooredoo-heavy", Verdana;
+    font-size: 10px !important;
+    text-align: center;
+    display: block;
+    margin: 12px auto 10px auto;
+    padding: 5px 10px;
+    background-color: #ed1c24;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.end-btn:hover,
+.end-btn:focus,
+.end-btn:active {
+    color: #f7f7f7;
+}
+
+#indira-bwid-carousel-content {
+    padding-bottom: 15px !important;
+}
+
+#indira-bwid-carousel-content > div > .owl-stage {
+    padding-left: 0 !important;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .intro-txt {
+    text-align: center;
+    font-family: Noto-Sans, Verdana;
+    font-weight: 600;
+    font-size: 14px !important;
+    margin-top: 10px;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .intro-wrapper > .intro-input {
+    width: 90%;
+    border: solid 1.5px #c9c8c8;
+    border-radius: 8px;
+    margin: 10px auto;
+    font-family: Noto-Sans, Verdana;
+	font-size: 14px !important;
+    color: #121b21 !important;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .intro-wrapper > .intro-input::-webkit-input-placeholder {
+    font-family: Noto-Sans, Verdana;
+    font-style: italic;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .intro-wrapper > .intro-input:-ms-input-placeholder {
+    font-family: Noto-Sans, Verdana;
+    font-style: italic;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .intro-wrapper > .intro-input:-moz-placeholder {
+    font-family: Noto-Sans, Verdana;
+    font-style: italic;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .intro-wrapper > .intro-input::-moz-placeholder {
+    font-family: Noto-Sans, Verdana;
+    font-style: italic;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .intro-wrapper > .intro-input-warning {
+    color: #ed1c24;
+    font-family: Noto-Sans, Verdana;
+    font-style: italic;
+    font-size: 12px !important;
+    text-align: left;
+    display: none;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .intro-wrapper > .intro-btn {
+    font-family: "ooredoo-heavy", Verdana;
+    font-size: 14px !important;
+    text-align: center;
+    display: block;
+    margin: 15px auto 5px auto;
+    padding: 5px 20px;
+    background-color: #ed1c24;
+    color: #c9c8c8;
+    border-radius: 20px;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .intro-wrapper > .intro-btn:hover {
+    color: #c9c8c8;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .intro-wrapper > .intro-btn:focus,
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .intro-wrapper > .intro-btn:active {
+    color: #ffffff;
+}
+
+.indira-bwcs-chat-window .form-control:focus {
+    border-color: transparent;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*Chatting Box*/
+.indira-bwcs-intro-wrapper .indira-bwcs-panel > .indira-bwcs-panel-footer > form > div > span > #indira-bwcs-btn-chat-send {
+    font-family: "ooredoo-heavy", Verdana;
+    font-size: 14px !important;
+    width: 80px;
+    height: 30px;
+    background-color: #ed1c24;
+    color: #c9c8c8;
+    border-radius: 15px;
+    padding: 0;
+    z-index: 9999999;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel > .indira-bwcs-panel-footer > form > div > #indira-bwcs-btn-chat-input {
+	font-family: Nato Sans, Verdana;
+    font-size: 12px;
+    position: absolute;
+    border-radius: 15px;
+    padding-right: 85px;
+    border: solid 1.5px #c9c8c8;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel > .indira-bwcs-panel-footer > form > div > #indira-bwcs-btn-chat-input::placeholder {
+    font-size: 12px;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel > .indira-bwcs-panel-footer > form > div > #indira-bwcs-btn-chat-input:focus {
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(201, 200, 200, .6);
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, .075), 0 0 8px rgba(201, 200, 200, .6);
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel > .indira-bwcs-panel-footer > form > div > #indira-bwcs-btn-chat-input::-webkit-input-placeholder {
+    font-family: Noto-Sans, Verdana;
+    font-style: italic;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel > .indira-bwcs-panel-footer > form > div > #indira-bwcs-btn-chat-input:-ms-input-placeholder {
+    font-family: Noto-Sans, Verdana;
+    font-style: italic;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel > .indira-bwcs-panel-footer > form > div > #indira-bwcs-btn-chat-input:-moz-placeholder {
+    font-family: Noto-Sans, Verdana;
+    font-style: italic;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel > .indira-bwcs-panel-footer > form > div > #indira-bwcs-btn-chat-input::-moz-placeholder {
+    font-family: Noto-Sans, Verdana;
+    font-style: italic;
+}
+
+.indira-bwcs-no-padding {
+    padding: 0;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel {
+    margin-bottom: 0px;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel > .indira-bwcs-panel-heading {
+    font-family: "ooredoo-heavy", Verdana;
+    font-size: 14px !important;
+    color: #fff !important;
+    background-color: #ed1c24;
+    border-color: #ddd;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-heading > div > .indira-bwcs-panel-title {
+    text-align: center;
+    font-size: 14px !important;
+    font-weight: bolder;
+    margin-top: 2px;
+    padding: 0 20px;
+}
+
+/* Heading Icon */
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-heading > .indira-bwcs-minim-icon {
+    padding-right: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-heading > .indira-bwcs-minim-icon > .indira-bwcs-icon-minim,
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-heading > .indira-bwcs-minim-icon > .indira-bwcs-icon-close {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-header-box {
+    height: 50px;
+    padding: 0 5px;
+    background-color: #ffd400;
+    margin-top: -1px;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-header-box > .indira-bwcs-img-header {
+    width: 60.5px;
+    height: 34px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -18px;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-header-box > .indira-bwcs-img-header > img {
+    vertical-align: middle;
+    display: block;
+    width: 100%;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-header-box > .indira-bwcs-header-wrapper {
+    padding-top: 5px;
+    padding-left: 100px;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-header-box > .indira-bwcs-header-wrapper > .indira-bwcs-name-header {
+    font-family: ooredoo-Heavy;
+    font-weight: 600;
+    font-size: 12px !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 320px;
+    color: #121b21;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-header-box > .indira-bwcs-header-wrapper > .indira-bwcs-status-header {
+    font-family: ooredoo-Heavy;
+    font-weight: 600;
+    font-size: 10px !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 320px;
+    color: #121b21 !important;
+}
+
+/*Chatting Introduce*/
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body {
+    background-color: #65c4db;
+    margin: 0;
+    padding: 0 10px 10px;
+    max-height: 455px;
+    overflow-x: hidden;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel > .indira-bwcs-panel-footer {
+    padding: 10px 15px;
+    background-color: #eaeaea;
+    border-top: none;
+    border-radius: 15px 15px 14px 14px;
+}
+
+#indira-bwid-qnimate .indira-bwcs-chat-window {
+    bottom: 0;
+    position: fixed;
+    float: right;
+    margin: 0;
+    right: 0;
+    max-width: 480px;
+    z-index: 99999;
+}
+
+#indira-bwid-qnimate .indira-bwcs-chat-window > div > .indira-bwcs-panel {
+    border-radius: 15px;
+    background-color: #65c4db;
+
+}
+
+/*Loader*/
+.indira-bwcs-intro-wrapper .indira-bwcs-panel > .indira-bwcs-chat-loader {
+    position: absolute;
+    top: 55%;
+    left: 46.5%;
+    width: 30px;
+    height: 30px;
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4px solid red;
+    margin: 0 auto;
+    -webkit-animation: indira-bw-spin 2s linear infinite; /* Safari */
+    animation: indira-bw-spin 2s linear infinite;
+    display: none;
+}
+
+/* Safari Loader*/
+@-webkit-keyframes indira-bw-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes indira-bw-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-msg-container-base {
+    max-height: 75vh;
+    height: 75vh;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > div > div > .messages {
+    font-family: Noto-Sans, Verdana;
+    font-size: 14px !important;
+    padding: 5px 28px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 25px;
+    min-height: 50px;
+    max-width: 100%;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > div > div > .messages > .header_receive,
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > div > div > .messages > .header_sent {
+    font-family: ooredoo-Heavy;
+	font-size: 12px !important;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > div > div > .messages > p {
+	text-align: left;
+    font-size: 12px !important;
+    margin: 2px 0 2px 0;
+	white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+/*.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > div > div > .messages-stick > p {
+	text-align: left;
+    font-size: 12px !important;
+    margin: 2px 0 2px 0;
+	white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}*/
+
+.trans-sticker{
+	background-color: transparent !important;
+	box-shadow: none !important;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > div > div > .messages > time {
+    font-size: 10px !important;
+    color: #ccc;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .msg_container {
+    padding: 10px 5px;
+    overflow: hidden;
+    display: flex;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .msg_container > div > .msg_receive {
+    margin-left: 25px;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .msg_container > div > .msg_sent {
+    margin-right: 0;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .msg_container > div > .msg_sent:after{
+	content: '';
+    position: absolute;
+    right: -2%;
+    top: 40%;
+    width: 0;
+    height: 0;
+    border: 13px solid transparent;
+    border-left-color: #fff;
+    border-right: 0;
+    border-top: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .msg_container > div > .avatar_left,
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .msg_container > div > .avatar_right {
+    position: relative;
+    z-index: 2;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .msg_container > div > .avatar_left > img {
+    border: solid 1px #508cc2;
+    border-radius: 50%;
+    max-width: 48px;
+    max-height: 48px;
+    float: left;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .msg_container > div > .avatar_right > img {
+    border: solid 1px #ffd400;
+    border-radius: 50%;
+    max-width: 48px;
+    max-height: 48px;
+    float: right;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .base_receive > .avatar_left:after,
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .base_receive > .avatar_right:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .base_sent {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .base_sent > .avatar_left:after,
+.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .base_sent > .avatar_right:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+}
+
+/*.msg_sent > time {*/
+/*float: right;*/
+/*}*/
+
+/* SCROLLBAR CUSTOM
+.indira-bwcs-msg-container-base::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+    max-height: 96%;
+}
+
+.indira-bwcs-msg-container-base::-webkit-scrollbar,
+.indira-bwcs-panel-body::-webkit-scrollbar {
+    width: 0;
+    background-color: #F5F5F5;
+    max-height: 96%;
+}
+
+.indira-bwcs-msg-container-base::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(237, 28, 36, .3);
+    background-color: #ed1c24;
+    max-height: 96%;
+}
+
+.indira-bwcs-panel-body::-webkit-scrollbar {
+    width: 0;
+}*/
+
+/*BUTTON BLM DI TEST*/
+.btn-group .dropup {
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+}
+
+/*THD*/
+.btn-survey{
+	width: 38px !important;
+	height: 38px;	
+}
+
+.indira-btn-bot-survey1 {
+	 cursor: pointer;
+	 background-image: url("https://indira2.indosatooredoo.com/client/img/smile1.jpg") !important;
+	 width: 38px;
+	 height: 38px;
+}
+.indira-btn-bot-survey2 {
+	 cursor: pointer;
+ 	 background-image: url("https://indira2.indosatooredoo.com/client/img/smile2.jpg") !important;
+	 width: 38px;
+	 height: 38px;
+}
+.indira-btn-bot-survey3 {
+	 cursor: pointer;
+	 background-image: url("https://indira2.indosatooredoo.com/client/img/smile3.jpg") !important;
+	 width: 38px;
+	 height: 38px;
+}
+.indira-btn-bot-survey4 {
+	 cursor: pointer;
+ 	 background-image: url("https://indira2.indosatooredoo.com/client/img/smile4.jpg") !important;
+	 width: 38px;
+	 height: 38px;
+}
+.indira-btn-bot-survey5 {
+	 cursor: pointer;
+ 	 background-image: url("https://indira2.indosatooredoo.com/client/img/smile5.jpg") !important;
+	 width: 38px;
+	 height: 38px;
+}	
+
+.indira-bwcs-btn-bot,
+.indira-bwcs-btn-bot-download {
+    font-family: Noto-Sans, Verdana;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    min-width: 100px;
+    background-color: #f4f4f4 !important;
+	color: #000;
+    margin: 5px 3px 5px 0;
+}
+
+.indira-bwcs-btn-bot-reply {
+	font-family: Noto-Sans, Verdana;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    min-width: 100px;
+	border-radius: 30px !important;
+    background-color: #d3d3d3 !important;
+	color: #000;
+    margin: 5px 3px 5px 0;
+}	
+
+.indira-bwcs-pu-chat-box {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    border: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 16000002;
+    /* width: 180px; */
+    /* height: 30px; */
+	width:90px;
+    /* right: 10px; */
+    right: 5px;
+    /* bottom: 0px; */
+    bottom: 100px;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.indira-bwcs-pu-chat-box .indira-bwcs-pu-wrapper {
+    min-width: 180px;
+    max-width: 300px;
+    height: 30px;
+    color: #ffffff;
+    background: #ed1c24;
+}
+
+.indira-bwcs-pu-chat-box .indira-bwcs-pu-wrapper .indira-bwcs-pu-chat-text {
+    font-family: "ooredoo-heavy", Verdana;
+    font-size: 14px !important;
+    position: relative;
+    overflow: hidden;
+    vertical-align: text-top;
+    width: 100%;
+    bottom: 0;
+    transition: bottom 0.3s ease-in-out;
+    line-height: 30px;
+    padding-left: 75px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.indira-bwcs-pu-chat-box .indira-bwcs-pu-wrapper .indira-bwcs-pu-symbol {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    vertical-align: text-top;
+    text-align: center;
+    padding-top: 5px;
+    width: 67px;
+    background: #ffd400;
+    color: #ffffff;
+}
+
+.indira-bwcs-pu-chat-box .indira-bwcs-pu-wrapper .indira-bwcs-pu-symbol img {
+    width: 22px !important;
+    height: 18px;
+    display: inline !important;
+}
+
+.indira-bwcs-popup-box {
+    display: none;
+}
+
+.indira-bwcs-popup-box-on {
+    display: block !important;
+}
+
+.indira-bwcs-primary-font-receive,
+.indira-bwcs-primary-font-sent {
+    color: #000000;
+}
+
+#indira-bwid-minim-chat-window .glyphicon-minus:before {
+    color: #fff;
+}
+
+/*Carousel*/
+.indira-bwcs-carousel-wrapper {
+    margin-top: 10px;
+    box-shadow: 0px 0px 0px 1px #d4d4d4 inset;
+    border-radius: 15px;
+}
+
+.indira-bwcs-carousel-wrapper a:hover{
+    text-decoration: none;
+}
+
+.indira-bwcs-carousel-wrapper .indira-bwcs-carousel-img {
+    border-radius: 15px;
+    margin: 0;
+}
+
+.indira-bwcs-carousel-wrapper .indira-bwcs-carousel-img img {
+    height: 139px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0 auto;
+	object-fit: cover;
+}
+
+.indira-bwcs-carousel-wrapper .indira-bwcs-carousel-title {
+    font-family: ooredoo-Heavy;
+    font-weight: 600;
+    font-size: 12px !important;
+    padding: 5px;
+}
+
+.indira-bwcs-carousel-wrapper .indira-bwcs-carousel-title-map {
+    font-family: Noto-Sans, Verdana;
+    font-weight: 600;
+    font-size: 12px !important;
+    padding: 5px 10px;
+}
+
+.indira-bwcs-carousel-wrapper .indira-bwcs-carousel-desc {
+    font-family: Noto-Sans, Verdana;
+    font-size: 10px !important;
+    padding: 0 5px 10px 5px;
+    border-bottom: solid 1px #d4d4d4;
+}
+
+.indira-bwcs-carousel-wrapper .indira-bwcs-carousel-desc-map {
+    font-family: Noto-Sans, Verdana;
+    font-size: 10px !important;
+    padding: 0 10px 10px 10px;
+}
+
+.indira-bwcs-carousel-wrapper .indira-bwcs-carousel-desc-map-url {
+    font-family: Noto-Sans, Verdana;
+    font-size: 11px !important;
+    text-align: center;
+    background-color: transparent;
+    color: #1b6d85 !important;
+    width: 100%;
+	border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    white-space: normal;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+	white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+}
+
+.indira-bwcs-carousel-wrapper .indira-bwcs-carousel-btn-wrapper button {
+    font-family: Noto-Sans, Verdana;
+    font-size: 11px !important;
+    text-align: center;
+    background-color: transparent;
+    color: #1b6d85;
+    width: 100%;
+    border-bottom: 1px solid #d3d3d3;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+	white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+}
+
+.indira-bwcs-carousel-wrapper .indira-bwcs-carousel-btn-wrapper button:last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom: none;
+}
+
+/* Custom Checkbox */
+.indira-bwcs-chkbx-container {
+	display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+    margin-top: 15px;
+    font-family: Noto-Sans, Verdana;
+}
+
+/* Hide the browser's default checkbox */
+.indira-bwcs-chkbx-container input {
+	display: none;
+	position: absolute;
+	opacity: 1;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+/* Create a custom checkbox */
+.indira-bwcs-chkbx-container .checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.indira-bwcs-chkbx-container:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.indira-bwcs-chkbx-container input:checked ~ .checkmark {
+	background-color: #ed1c24;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.indira-bwcs-chkbx-container .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the checkmark when checked */
+.indira-bwcs-chkbx-container input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the checkmark/indicator */
+.indira-bwcs-chkbx-container .checkmark:after {
+	left: 9px;
+    top: 5px;
+    width: 7px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@media screen and (orientation: landscape) and (max-width: 850px) {
+
+    #indira-bwid-qnimate .indira-bwcs-chat-window {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-msg-container-base {
+        max-height: 62vh;
+    }
+	
+	.indira-bwcs-carousel-wrapper .indira-bwcs-carousel-img img {
+		height: 200px;
+	}
+
+    .indira-bwcs-panel-body {
+        max-height: 220px;
+    }
+	
+	.indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-panel-body > .msg_container > div > .msg_sent:after {
+		/*margin-right: 4px;*/
+		right: -1%;
+	}
+
+}
+
+@media screen and (orientation: portrait) and (max-width: 769px) {
+	
+	.indira-bwcs-carousel-wrapper .indira-bwcs-carousel-img img {
+		height: 115px;
+	}
+	
+}
+
+@media screen and (orientation: landscape) and (max-width: 568px) {
+
+    .indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-msg-container-base {
+        max-height: 51vh;
+    }
+	
+	#indira-bot-webchat-pi .slick-list {
+	
+		padding:0 10% 0 0;
+	}
+	
+	.indira-bwcs-carousel-wrapper .indira-bwcs-carousel-img img {
+		height: 200px;
+	}
+
+}
+
+
+@media screen and (orientation: portrait) and (max-width: 568px) {
+
+    /* .indira-bwcs-intro-wrapper .indira-bwcs-panel .indira-bwcs-msg-container-base { */
+          /* max-height: 51vh; */
+    /* } */
+	
+	#indira-bot-webchat-pi .slick-list {
+	
+		padding:0 10% 0 0;
+	}
+	
+	
+	.indira-bwcs-carousel-wrapper .indira-bwcs-carousel-img img {
+		height: 200px;
+	}
+
+}
+
+@media screen and (orientation: portrait) and (max-width: 320px) {
+
+    #indira-bwid-qnimate .indira-bwcs-chat-window {
+        padding: 0;
+    }
+
+    #indira-bwid-qnimate .indira-bwcs-chat-window > div {
+        padding: 0;
+    }
+	
+	.indira-bwcs-carousel-wrapper .indira-bwcs-carousel-img img {
+		height: 115px;
+	}
+
+}

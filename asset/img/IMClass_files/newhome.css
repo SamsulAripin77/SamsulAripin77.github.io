@@ -1,0 +1,228 @@
+@font-face {
+    font-family: ooredoo-menu;
+    src: url(https://indosatooredoo.com/assets/fonts/ooredoo-Regular.ttf)
+}
+
+.ooredoo-menu {
+    font-family: ooredoo-menu !important
+}
+
+@font-face {
+    font-family: ooredoo-Bold;
+    src: url(https://indosatooredoo.com/assets/fonts/ooredoo-Bold.ttf)
+}
+
+@font-face {
+    font-family: ooredoo-Regular;
+    src: url(https://indosatooredoo.com/assets/fonts/NotoSans-Regular.woff)
+}
+
+@font-face {
+    font-family: ooredoo-Heavy;
+    src: url('https://indosatooredoo.com/assets/fonts/Ooredoo-Heavy 2.otf')
+}
+
+@font-face {
+    font-family: FuturaStd-Bold;
+    src: url(https://indosatooredoo.com/assets/fonts/NotoSans-Bold.ttf)
+}
+
+body {
+    padding-right: 0 !important;
+    background-color: #f8f7f7;
+    font-family: ooredoo-regular
+}
+
+.main-navigation .header-search input[type=text] {
+    color: #000;
+    background: #fff;
+    border: 1px solid #f3f3f3
+}
+
+    .main-navigation .header-search input[type=text]::-webkit-input-placeholder {
+        font-style: normal
+    }
+
+.hero-banner-wrapper .slick-dots li.slick-active {
+    /*opacity: .5;
+    background: #fff*/
+    opacity: 1;
+    background: #ec2329;
+}
+
+.hero-banner-wrapper .slick-dots li {
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px;
+    /*background: 0 0;*/
+    background: rgba(229, 229, 229, 1);
+    border: 2px solid #fff
+}
+
+.hero-banner-wrapper .slick-dots {
+    bottom: -25px;
+}
+
+.hero-banner .slick-dotted.slick-slider {
+    margin-bottom: 0px !important;
+}
+
+.main-navigation .header-search button[type=submit] {
+    background: url(https://assets.indosatooredoo.com/Assets/Upload/revamp-faq/desktop/searchthumb.png) center no-repeat;
+    top: 5px;
+    right: 5px
+}
+
+.footer-news .footer-news-form input[type=button] {
+    background: url(https://assets.indosatooredoo.com/Assets/Upload/newhome/amplop-min-new.png) center center no-repeat
+}
+
+.app-row {
+    background: #fff;
+    min-height: 120px;
+    border-radius: 10px;
+    padding: 25px
+}
+
+.footer-body {
+    background: #ece9e9;
+    margin-top: 10px
+}
+
+.footer-nav a, .footer-nav a:active, .footer-nav a:focus, .footer-nav a:visited {
+    color: #000;
+    font-size: 16px
+}
+
+.main-navigation .navbar-nav > li a, .main-navigation .navbar-nav > li a:focus, .main-navigation .navbar-nav > li a:visited {
+    padding: 0 14px
+}
+
+    .main-navigation .navbar-nav > li a span, .main-navigation .navbar-nav > li a:focus span, .main-navigation .navbar-nav > li a:visited span {
+        font-family: 'ooredoo-heavy',Verdana;
+        font-size: 15px
+    }
+
+.footer-nav h3 {
+    color: #000 !important;
+    font-size: 22px;
+    margin-bottom: 10px
+}
+
+.columns-box .items h3 {
+    font-size: 20px
+}
+
+.columns-box .items p {
+    font-size: 14px
+}
+
+.feed-desc {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-radius: 0 0 10px 10px;
+    background: #fff
+}
+
+.feed-cont img {
+    border-radius: 10px 10px 0 0;
+    object-fit: contain;
+    width: 100% !important;
+    background-color: #fed500
+}
+
+.feed-cont .img-thumb {
+    width: 7% !important;
+    border-radius: 50%
+}
+
+.feed-cont .btn-red {
+    border-radius: 25px
+}
+
+.main-navigation {
+    border-radius: 10px;
+    width: 1140px;
+    margin-left: 70px
+}
+
+.header-top {
+    z-index: 1 !important;
+    background: #fcd401
+}
+
+    .header-top .navbar-nav li.active a, .header-top .navbar-nav li.active a:focus, .header-top .navbar-nav li.active a:visited {
+        background: 0 0;
+        border: none;
+        color: #e61c28
+    }
+
+.ooredoo-heavy {
+    font-family: ooredoo-Heavy !important
+}
+
+@media screen and (max-width:768px) {
+    .footer-body .footer-nav a {
+        color: #000 !important
+    }
+
+    .footer-body .footer-nav > .col-lg-3:nth-child(odd) {
+        background: #ece9e9 !important
+    }
+
+    #site-header {
+        background: 0 0
+    }
+
+        #site-header .header-top ul.navbar-nav {
+            background: #ffd300
+        }
+
+        #site-header .row {
+            width: 96%;
+            margin-left: 2%;
+            background: #fff;
+            border-radius: 10px;
+            position: absolute
+        }
+
+        #site-header .header-top {
+            background: transparent
+        }
+}
+
+.main-navigation .navbar-nav > li > .submenu-wrapper > ul > li > a, .main-navigation .navbar-nav > li > .submenu-wrapper > ul > li > a:focus, .main-navigation .navbar-nav > li > .submenu-wrapper > ul > li > a:visited {
+    font-family: ooredoo-regular;
+    font-size: 14px
+}
+
+.main-navigation .navbar-nav > li > .submenu-wrapper > ul > li > ul li > a, .main-navigation .navbar-nav > li > .submenu-wrapper > ul > li > ul li > a:focus, .main- navigation .navbar-nav > li > .submenu-wrapper > ul > li > ul li > a:visited {
+    font-family: ooredoo-Regular;
+    font-size: 14px
+}
+
+.header-top .navbar-nav > .active > a:hover {
+    background: #ed1c24;
+    color: #fff !important
+}
+
+.header-top .navbar-nav li.active a, .header-top .navbar-nav li.active a:focus, .header-top .navbar-nav li.active a:visited {
+    color: #ed1c24
+}
+
+.main-navigation .navbar-nav > li > .submenu-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.main-navigation .navbar-nav > li > .submenu-wrapper > ul > li ul {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.main-content .container {
+    margin-top: 35px;
+}

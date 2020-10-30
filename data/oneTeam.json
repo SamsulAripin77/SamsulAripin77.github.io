@@ -1,0 +1,385 @@
+{
+    "id": 1,
+    "area": {
+        "id": 2088,
+        "name": "Germany"
+    },
+    "activeCompetitions": [
+        {
+            "id": 2002,
+            "area": {
+                "id": 2088,
+                "name": "Germany"
+            },
+            "name": "Bundesliga",
+            "code": "BL1",
+            "plan": "TIER_ONE",
+            "lastUpdated": "2020-10-16T00:00:17Z"
+        },
+        {
+            "id": 2011,
+            "area": {
+                "id": 2088,
+                "name": "Germany"
+            },
+            "name": "DFB-Pokal",
+            "code": "DFB",
+            "plan": "TIER_TWO",
+            "lastUpdated": "2020-10-16T03:40:04Z"
+        }
+    ],
+    "name": "1. FC Köln",
+    "shortName": "1. FC Köln",
+    "tla": "KOE",
+    "crestUrl": "https://crests.football-data.org/1.svg",
+    "address": "Franz-Kremer-Allee 1 Köln 50937",
+    "phone": "+49 (221) 71616300",
+    "website": "http://www.fc-koeln.de",
+    "email": "info@fc-koeln.de",
+    "founded": 1948,
+    "clubColors": "Red / White",
+    "venue": "RheinEnergieSTADION",
+    "squad": [
+        {
+            "id": 178,
+            "name": "Timo Horn",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1993-05-12T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 9388,
+            "name": "Ron-Robert Zieler",
+            "position": "Goalkeeper",
+            "dateOfBirth": "1989-02-12T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 76619,
+            "name": "Julian Krahl",
+            "position": "Goalkeeper",
+            "dateOfBirth": "2000-01-22T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 184,
+            "name": "Jonas Hector",
+            "position": "Defender",
+            "dateOfBirth": "1990-05-27T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 187,
+            "name": "Frederik Sørensen",
+            "position": "Defender",
+            "dateOfBirth": "1992-04-14T00:00:00Z",
+            "countryOfBirth": "Denmark",
+            "nationality": "Denmark",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 189,
+            "name": "Jorge Meré",
+            "position": "Defender",
+            "dateOfBirth": "1997-04-17T00:00:00Z",
+            "countryOfBirth": "Spain",
+            "nationality": "Spain",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 191,
+            "name": "Jannes-Kilian Horn",
+            "position": "Defender",
+            "dateOfBirth": "1997-02-06T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 192,
+            "name": "João Pereira Queirós",
+            "position": "Defender",
+            "dateOfBirth": "1998-04-22T00:00:00Z",
+            "countryOfBirth": "Portugal",
+            "nationality": "Portugal",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 194,
+            "name": "Ismail Jakobs",
+            "position": "Defender",
+            "dateOfBirth": "1999-08-17T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 231,
+            "name": "Rafael Czichos",
+            "position": "Defender",
+            "dateOfBirth": "1990-05-14T00:00:00Z",
+            "countryOfBirth": "Saudi Arabia",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 7710,
+            "name": "Kingsley Ehizibue",
+            "position": "Defender",
+            "dateOfBirth": "1995-05-25T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Netherlands",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 8847,
+            "name": "Sebastiaan Bornauw",
+            "position": "Defender",
+            "dateOfBirth": "1999-03-22T00:00:00Z",
+            "countryOfBirth": "Belgium",
+            "nationality": "Belgium",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 9539,
+            "name": "Benno Schmitz",
+            "position": "Defender",
+            "dateOfBirth": "1994-11-17T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 130417,
+            "name": "Robert Voloder",
+            "position": "Defender",
+            "dateOfBirth": "2001-05-09T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Bosnia and Herzegovina",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 151888,
+            "name": "Jens Castrop",
+            "position": "Defender",
+            "dateOfBirth": "2003-07-29T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 200,
+            "name": "Marco Höger",
+            "position": "Midfielder",
+            "dateOfBirth": "1989-09-16T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 201,
+            "name": "Salih Özcan",
+            "position": "Midfielder",
+            "dateOfBirth": "1998-01-11T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 202,
+            "name": "Christian Clemens",
+            "position": "Midfielder",
+            "dateOfBirth": "1991-08-04T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 232,
+            "name": "Dominick Drexler",
+            "position": "Midfielder",
+            "dateOfBirth": "1990-05-26T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 3608,
+            "name": "Ellyes Skhiri",
+            "position": "Midfielder",
+            "dateOfBirth": "1995-05-10T00:00:00Z",
+            "countryOfBirth": "France",
+            "nationality": "Tunisia",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 6560,
+            "name": "Ondrej Duda",
+            "position": "Midfielder",
+            "dateOfBirth": "1994-12-15T00:00:00Z",
+            "countryOfBirth": "Slovakia",
+            "nationality": "Slovakia",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 6714,
+            "name": "Marius Wolf",
+            "position": "Midfielder",
+            "dateOfBirth": "1995-05-27T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 9432,
+            "name": "Elvis Rexhbecaj",
+            "position": "Midfielder",
+            "dateOfBirth": "1997-11-01T00:00:00Z",
+            "countryOfBirth": "Kosovo",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 9453,
+            "name": "Florian Kainz",
+            "position": "Midfielder",
+            "dateOfBirth": "1992-10-24T00:00:00Z",
+            "countryOfBirth": "Austria",
+            "nationality": "Austria",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 99836,
+            "name": "Noah Katterbach",
+            "position": "Midfielder",
+            "dateOfBirth": "2001-04-13T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 120981,
+            "name": "Toluwalas Arokodare",
+            "position": "Midfielder",
+            "dateOfBirth": "2000-11-23T00:00:00Z",
+            "countryOfBirth": "Nigeria",
+            "nationality": "Nigeria",
+            "shirtNumber": 99,
+            "role": "PLAYER"
+        },
+        {
+            "id": 150521,
+            "name": "Sava Cestic",
+            "position": "Midfielder",
+            "dateOfBirth": "2001-02-19T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 151889,
+            "name": "Marvin Obuz",
+            "position": "Midfielder",
+            "dateOfBirth": "2002-01-25T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 6601,
+            "name": "Sebastian Andersson",
+            "position": "Attacker",
+            "dateOfBirth": "1991-07-15T00:00:00Z",
+            "countryOfBirth": "Sweden",
+            "nationality": "Sweden",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 21528,
+            "name": "Anthony Modeste",
+            "position": "Attacker",
+            "dateOfBirth": "1988-04-14T00:00:00Z",
+            "countryOfBirth": "France",
+            "nationality": "France",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 43513,
+            "name": "Dimitris Limnios",
+            "position": "Attacker",
+            "dateOfBirth": "1998-05-25T00:00:00Z",
+            "countryOfBirth": "Greece",
+            "nationality": "Greece",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 137031,
+            "name": "Jan Thielmann",
+            "position": "Attacker",
+            "dateOfBirth": "2002-05-26T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 144433,
+            "name": "Tim Lemperle",
+            "position": "Attacker",
+            "dateOfBirth": "2002-02-05T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "PLAYER"
+        },
+        {
+            "id": 57502,
+            "name": "Markus Gisdol",
+            "position": null,
+            "dateOfBirth": "1969-08-17T00:00:00Z",
+            "countryOfBirth": "Germany",
+            "nationality": "Germany",
+            "shirtNumber": null,
+            "role": "COACH"
+        }
+    ],
+    "lastUpdated": "2020-10-15T01:56:35Z"
+}

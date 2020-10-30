@@ -1,0 +1,41 @@
+{
+    "name": "Footbal Clubs",
+    "short_name": "Football",
+    "description": "Football Clubs list teams",
+    "start_url": "/",
+    "gcm_sender_id": "554520413474",
+    "display": "standalone",
+    "background_color": "#00897B",
+    "theme_color": "#00897B",
+    "icons": [{
+        "src": "/asset/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+    }, {
+        "src": "/asset/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "any maskable"
+    }, {
+        "src": "/asset/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+    }, {
+        "src": "/asset/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png",
+        "purpose": "any maskable"
+    }, {
+        "src": "/asset/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+    }, {
+        "src": "/asset/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any maskable"
+    }]
+}

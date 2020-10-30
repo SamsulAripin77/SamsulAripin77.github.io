@@ -1,0 +1,36 @@
+.card-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 17em;
+    }
+      .img-circle{
+          padding: 7px!important
+      }
+      .absolute{
+          position: absolute;
+          right: 3em;
+          z-index: 3;
+          top: 430%;
+          left: 50%;
+          -ms-transform: translate(-50%, -10%);
+          transform: translate(-50%, -10%);
+      }
+      
+      .relative{
+          position: relative;
+          height: 3em;
+      }
+     
+      @media screen and (min-width: 600px) {
+        .card-bg{
+          height: 7.5em;
+        }
+        .absolute{
+          top: 120%;
+          left: 50%;
+          -ms-transform: translate(-50%, -10%);
+          transform: translate(-50%, -10%);
+      }
+      }
