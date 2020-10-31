@@ -67,3 +67,25 @@ workbox.routing.registerRoute(
     'https://api.football-data.org/v2/teams',
     new workbox.strategies.StaleWhileRevalidate(),
 );
+
+self.addEventListener("push", (event) => {
+    let body;
+    if (event.data) {
+        body = event.data.text();
+    } else {
+        body = "message no payload";
+    }
+
+    const options = {
+        body,
+        icons: "icon.webp",
+        vibrate: [100, 50, 100],
+        data: {
+            dateOfArrival: Date.now(),
+            primaryKey: 1,
+        },
+    };
+    event.waitUntil(
+        self.registration.showNotification("Push Notification", options)
+    );
+});

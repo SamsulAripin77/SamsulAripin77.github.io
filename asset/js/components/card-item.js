@@ -60,7 +60,7 @@ class CardItem extends HTMLElement {
           <div class="card">
               <a href="${this.href}" class="card-bg card-content white-text" style="background-image: url('./asset/img/${this.cardColor[this.getRandom].bg}.webp');">
                   <div class=" center relative">
-                          <img width="60" height="60" class="absolute circle white img-circle" src="${this._team.crestUrl}" alt="gambar team">
+                          <img width="60" height="60" class="absolute circle white img-circle" src="${this._team.crestUrl.replace(/^http:\/\//i, 'https://')}" alt="gambar team">
                   </div>
               </a>
               <div class="card-action center-align white-text ${this.cardColor[this.getRandom].color}">

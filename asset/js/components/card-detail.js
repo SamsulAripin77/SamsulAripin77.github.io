@@ -87,7 +87,7 @@ class CardDetail extends HTMLElement {
               <div class="card-content white-text">
                   <div class="row">
                       <div class="col s12 m6 l4 center">
-                          <img height="300" width="300" class="responsive-img" src="${this._team.crestUrl}" alt="gambar team">
+                          <img height="300" width="300" class="responsive-img" src="${this._team.crestUrl.replace(/^http:\/\//i, 'https://')}" alt="gambar team">
                       </div>
                       <div class="col s12 m6 l8">
                            <h4>${this._team.name}</h4>
